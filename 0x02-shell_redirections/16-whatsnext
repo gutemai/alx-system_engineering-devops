@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -A 4 "games" /etc/passwd
+egrep -B 4 "root" /etc/passwd
